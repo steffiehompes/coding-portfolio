@@ -1,0 +1,80 @@
+:root {
+  --background-color: #d7d6d1;
+  --primary-color: #ede6d8;
+  --element-color: #d09374;
+  --accent-color: #647257;
+  --text-color: black;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--background-color);
+  display: block;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+footer {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+p {
+  font-size: 20px;
+}
+
+.nav-bg-color {
+  background: var(--accent-color);
+  color: black;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.navbar,
+.introduction,
+.skills,
+.projects,
+.get-in-touch {
+  border-radius: 10px;
+  margin: 30px 0;
+  padding: 30px;
+}
+.introduction,
+.skills {
+  background-color: var(--primary-color);
+}
+.introduction-paragraph,
+.introduction-image {
+  line-height: 1.5;
+  text-align: center;
+}
+.introduction-paragraph {
+  position: relative;
+  top: 150px;
+}
+.projects-button {
+  background: var(--element-color);
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.projects {
+  background: var(--primary-color);
+  color: var(--element-color);
+}
+.get-in-touch {
+  background: var(--accent-color);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+#img-steffie {
+  border-radius: 100px 100px 3px 3px;
+}
+
+.icon {
+  color: black;
+  font-size: 40px;
+  padding: 30px;
+}
