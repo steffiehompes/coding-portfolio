@@ -30,6 +30,94 @@
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light nav-bg-color sticky-top">
+        <a class="navbar-brand" href="/index.html">Steffie Hompes.©</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#">My projects</a>
+            <a class="nav-item nav-link" href="#">Skills</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <div class="introduction">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="introduction-image">
+              <img
+                src="/images/steffie.jpeg"
+                alt="Steffie Hompes"
+                width="350px"
+                id="img-steffie"
+              />
+            </div>
+          </div>
+          <div class="col-sm-6 introduction-paragraph">
+            <h1>Front-end-developer</h1>
+            <p>
+              I am Steffie Hompes, a self-taught Front-end-developer living
+              Amsterdam.
+            </p>
+            <a href="index.html#myProjects">
+              <div class="btn btn-primary">Have a look at my projects</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects" id="myProjects">
+        <h2>My projects</h2>
+        <h3>A small selection of my projects</h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="/images/weather-app.png"
+              alt="weather-app"
+              width="400px"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h4>Weather application</h4>
+            <p>
+              The weather-application shows real-time data of various cities in
+              the world that is entered in the search-bar of the application.
+              <br />
+              Tools: HTMl, CSS, JS, InVision Freehand, API
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <h2>Skills</h2>
+        <p>HTML -- CSS -- Javascript -- bootstrap -- responsive web design</p>
+      </div>
+      <div class="get-in-touch mt-5">
+        <h2>Let's get in touch</h2>
+        <div class="email">
+          <i class="fas fa-envelope" id="email-icon"></i>
+          steffiehompes@gmail.com
+        </div>
+        <i class="fab fa-github-square" id="github-icon"></i>
+        <i class="fab fa-linkedin" id="linkedin-icon"></i>
+      </div>
+      <span id="back-to-top-navigator">
+        <i class="far fa-arrow-alt-circle-up"></i
+      ></span>
+      <footer>© 2021 - Steffie Hompes</footer>
+    </div>
   </body>
 </html>
