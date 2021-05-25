@@ -29,6 +29,11 @@ p {
   font-size: 20px;
 }
 
+a img.project-image:hover {
+  margin-top: 10px;
+  transition: var(--transition);
+}
+
 .nav-bg-color {
   background: var(--accent-color);
   color: black;
@@ -38,6 +43,7 @@ p {
 .introduction,
 .skills,
 .projects,
+.certifications,
 .get-in-touch {
   border-radius: 10px;
   margin: 30px 0;
@@ -101,6 +107,11 @@ p {
   padding: 20px;
   transition: var(--transition);
 }
+.certification-button {
+  background: var(--primary-color);
+  color: var(--element-color);
+  border: 1px solid var(--element-color);
+}
 
 .projects {
   background: var(--primary-color);
@@ -108,6 +119,21 @@ p {
 }
 .project-description p {
   line-height: 1.8;
+}
+.certifications {
+  background-color: var(--primary-color);
+  opacity: 90%;
+}
+.certification-images {
+  width: 200px;
+  padding: 10px;
+  background: var(--element-color);
+  box-shadow: var(--box-shadow);
+}
+.certification-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
 }
 .get-in-touch {
   background: var(--accent-color);
