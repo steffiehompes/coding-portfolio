@@ -103,6 +103,9 @@ p {
   background: var(--primary-color);
   color: var(--element-color);
 }
+.project-description p {
+  line-height: 1.8;
+}
 .get-in-touch {
   background: var(--accent-color);
   color: var(--primary-color);
