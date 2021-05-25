@@ -53,8 +53,10 @@
             <a class="nav-item nav-link active" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
-            <a class="nav-item nav-link" href="#">My projects</a>
-            <a class="nav-item nav-link" href="#">Skills</a>
+            <a class="nav-item nav-link" href="/index.html#skill-section"
+              >Skills</a
+            ><a class="nav-item nav-link" href="#">My projects</a>
+
             <a class="nav-item nav-link" href="#">Contact</a>
           </div>
         </div>
@@ -83,6 +85,81 @@
           </div>
         </div>
       </div>
+      <div class="skills" id="skill-section">
+        <h2>Skills</h2>
+        <p>
+          <i class="fab fa-html5 skill-icon"></i>HTML
+          <i class="fab fa-css3-alt skill-icon"></i>CSS
+          <i class="fab fa-js-square skill-icon"></i>Javascript
+          <i class="fab fa-bootstrap skill-icon"></i>Bootstrap
+          <i class="fab fa-invision skill-icon"></i>InVision
+          <i class="fas fa-mobile-alt skill-icon"></i>Responsive Web Design
+          <i class="fas fa-cogs skill-icon"></i>API Integration
+        </p>
+      </div>
+      <div
+        id="bs-carousel"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="4000"
+      >
+        <ol class="carousel-indicators">
+          <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#bs-carousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="/images/weather-app.png"
+              alt="First slide"
+            />
+            <span class="carousel-caption d-none d-md-block">
+              <a
+                href="https://musing-blackwell-f1b227.netlify.app/"
+                target="_blank"
+                class="btn projects-button"
+              >
+                Go to project</a
+              >
+            </span>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="/images/houseplants.png"
+              alt="Second slide"
+            />
+            <span class="carousel-caption d-none d-md-block">
+              <a
+                href="file:///Volumes/GoogleDrive/My%20Drive/Content%20SheCodes%20Workshop/Basics/SheCodes%20Project%20Houseplants.html"
+                target="_blank"
+                class="btn projects-button"
+              >
+                Go to project</a
+              >
+            </span>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#bs-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#bs-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
       <div class="projects" id="myProjects">
         <h2>My projects</h2>
         <h3>A small selection of my projects</h3>
@@ -105,22 +182,21 @@
           </div>
         </div>
       </div>
-      <div class="skills">
-        <h2>Skills</h2>
-        <p>HTML -- CSS -- Javascript -- bootstrap -- responsive web design</p>
-      </div>
+
       <div class="get-in-touch">
         <h2>Let's get in touch</h2>
         <div class="email">
           <i class="fas fa-envelope" id="email-icon"></i>
           steffiehompes@gmail.com
         </div>
-        <i class="fab fa-github-square icon" id="github-icon"></i>
-        <i class="fab fa-linkedin icon" id="linkedin-icon"></i>
+        <i class="fab fa-github-square socials-icon" id="github-icon"></i>
+        <i class="fab fa-linkedin socials-icon" id="linkedin-icon"></i>
       </div>
-      <span id="back-to-top-navigator">
-        <i class="far fa-arrow-alt-circle-up icon"></i
-      ></span>
+      <a href="/index.html"
+        ><span id="back-to-top-navigator">
+          <i class="far fa-arrow-alt-circle-up footer-icon"></i
+        ></span>
+      </a>
       <footer>© 2021 - Steffie Hompes</footer>
       <br />
     </div>

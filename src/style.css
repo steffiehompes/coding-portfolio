@@ -9,8 +9,6 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: var(--background-color);
-  display: block;
-  margin: 0 auto;
 }
 h1,
 h2,
@@ -21,6 +19,7 @@ footer {
   line-height: 1.5;
   text-transform: uppercase;
 }
+
 p {
   font-size: 20px;
 }
@@ -28,10 +27,9 @@ p {
 .nav-bg-color {
   background: var(--accent-color);
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
 }
-.navbar,
 .introduction,
 .skills,
 .projects,
@@ -53,10 +51,24 @@ p {
   position: relative;
   top: 150px;
 }
+
+.carousel {
+  width: 800px;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel-indicators li {
+  background-color: black;
+  padding: 2px;
+}
+
 .projects-button {
   background: var(--element-color);
   color: var(--primary-color);
   font-size: 20px;
+  padding: 20px;
 }
 
 .projects {
@@ -72,8 +84,13 @@ p {
 #img-steffie {
   border-radius: 100px 100px 3px 3px;
 }
-
-.icon {
+.skill-icon {
+  color: var(--element-color);
+  font-size: 40px;
+  padding: 20px;
+}
+.socials-icon,
+.footer-icon {
   color: black;
   font-size: 40px;
   padding: 30px;
