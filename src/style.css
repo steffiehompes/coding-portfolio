@@ -166,3 +166,60 @@ p {
   color: var(--text-color);
   transition: var(--transition);
 }
+
+@media (max-width: 578px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 15px;
+  }
+  footer {
+    font-size: 10px;
+  }
+
+  .introduction-paragraph {
+    position: initial;
+    top: 0;
+  }
+  .skills,
+  .skill-icon {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+  }
+  .carousel {
+    width: 100%;
+    height: 100%;
+  }
+
+  .projects-button,
+  .slider-button,
+  .certification-button {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    width: 80%;
+    height: 80%;
+  }
+  .certification-images {
+    width: 150px;
+  }
+  .projects-button,
+  .slider-button,
+  .certification-button {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
