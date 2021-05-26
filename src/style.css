@@ -151,7 +151,9 @@ p {
   color: var(--primary-color);
   font-size: 20px;
 }
-
+.email-link:hover {
+  color: black;
+}
 .skill-icon {
   color: var(--element-color);
   font-size: 40px;
@@ -159,19 +161,27 @@ p {
 }
 .socials-icon,
 .footer-icon {
-  color: var(--primary-color);
   font-size: 40px;
-  padding: 30px;
+  margin: 20px 30px;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+.socials-icon {
+  color: var(--accent-color);
+  background: var(--primary-color);
 }
 .footer-icon {
   color: var(--element-color);
-  display: block;
+  background: var(--primary-color);
 }
-
-.email-link:hover,
 .socials-icon:hover {
-  color: var(--text-color);
+  color: var(--primary-color);
+  background-color: var(--accent-color);
   transition: var(--transition);
+}
+.footer-icon:hover {
+  color: var(--primary-color);
+  background: var(--element-color);
 }
 
 @media (max-width: 578px) {
