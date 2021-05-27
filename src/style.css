@@ -187,7 +187,7 @@ p {
 @media (max-width: 578px) {
   .introduction-paragraph {
     position: initial;
-    top: 0;
+    top: 10px;
   }
   .skills,
   .skill-icon {
@@ -205,6 +205,9 @@ p {
 }
 
 @media (max-width: 768px) {
+  .introduction-paragraph {
+    position: relative;
+  }
   h1 {
     font-size: 20px;
   }
@@ -237,5 +240,17 @@ p {
   .footer-icon {
     font-size: 20px;
     padding: 5px 7px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .introduction-paragraph {
+    position: relative;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .typer-text {
+    font-size: 20px;
   }
 }
