@@ -73,6 +73,11 @@ p {
 #img-steffie {
   border-radius: 100px 100px 5px 5px;
 }
+
+.skills p {
+  text-align: center;
+  line-height: 1.5;
+}
 .get-in-touch {
   border-radius: 5px 5px 100px 100px;
 }
@@ -232,9 +237,7 @@ p {
     font-size: 15px;
     margin-bottom: 10px;
   }
-  .skills p {
-    text-align: center;
-  }
+
   .skill-icon,
   .socials-icon,
   .footer-icon {
