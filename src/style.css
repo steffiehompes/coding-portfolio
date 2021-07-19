@@ -214,6 +214,12 @@ p {
   .certification-images {
     max-width: 80px;
   }
+  .project-image {
+    height: auto;
+    width: auto;
+    max-width: 225px;
+    max-height: 175px;
+  }
 }
 
 @media (max-width: 768px) {
